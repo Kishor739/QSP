@@ -1,0 +1,23 @@
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    background-color: red;
+    transition-duration: 2s;
+    /* transition-delay: 2s; */
+}
+#box:hover{
+    /* transform: scale(-2); */
+    /* transform: rotate(1080deg) scale(-2); */
+    /* transform: translate(-200px,-200px); */
+    transform: skew(100deg);
+}
+
